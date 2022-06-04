@@ -137,8 +137,72 @@ img {
 }
 
 /*=============== HOME ===============*/
+.home {
+  background-color: var(--first-color);
+  padding: 9rem 0 2rem;
+  height: 100vh;
+  display: grid;
+}
 
+.home_container {
+  display: grid;
+  align-content: center;
+  row-gap: 2.5rem;
+}
 
+.home_data {
+  text-align: center;
+}
+
+.home_subtitle {
+  display: block;
+}
+
+.home_title {
+  font-size: var(--biggest-font-size);
+  margin: .75rem 0;
+}
+
+.home_button {
+  margin-top: 2rem;
+  display: inline-block;
+  background-color: var(--text-color);
+  color: #fff;
+  padding: .8rem 1.5rem;
+  border-radius: 3rem;
+  transition: .4s;
+}
+
+.home_button:hover {
+  box-shadow: 0 4px 12px hsla(38, 69%, 8%, .3);
+}
+
+.home_img img {
+  width: 230px;
+  animation: floaty 1.8s infinite alternate;
+}
+
+.home_img {
+  justify-self: center;
+}
+
+.home_shadow {
+  width: 130px;
+  height: 24px;
+  background-color: hsla(38, 21%, 19%, .16);
+  margin: 0 auto;
+  border-radius: 50%;
+  filter: blur(7px);
+  animation: shadow 1.8s infinite alternate;
+}
+
+.home_footer {
+  display: flex;
+  justify-content: center;
+  column-gap: .5rem;
+  font-size: var(--smaller-font-size);
+  align-self: flex-end;
+}
 /* Animate ghost */
 
 
