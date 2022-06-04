@@ -1,2 +1,4 @@
 # Responsive 404 Page Design 
-Created by Li Hui Cham 
+Error 404 page. 
+Inspired by Bedimcode. 
+Created using: HTML, CSS, JavaScript, ScrollReveal Js, 3D Illustration. 
