@@ -226,15 +226,77 @@ img {
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
-
+@media screen and (max-width: 320px) {
+  .home {
+    padding-top: 7rem ;
+  }
+}
 
 /* For medium devices */
+@media screen and (min-width: 767px) {
+  .nav {
+    height: calc(var(--header--height) + 1.5rem);
+    margin-top: 1.8rem;
+  }
 
+  .nav_toggle, 
+  .nav_close {
+    display: none;
+  }
+
+  .nav_list {
+    flex-direction: row;
+    column-gap: 3.5rem;
+  }
+
+}
 
 /* For large devices */
+@media screen and (min-width: 1024px) {
+  .home_container {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    column-gap: 2rem;
+  }
 
+  .home_data {
+    text-align: initial;
+    margin-left: 3rem;
+  }
+
+  .home_img img {
+    width: 400px;
+  }
+
+  .home_shadow {
+    width: 250px;
+    height: 40px;
+  }
+}
+
+@media screen and (min-width: 1048px) {
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 
 /* For 2K resolutions (2048 x 1152, 2048 x 1536) */
+@media screen and (min-width: 2048px) {
+  body {
+    zoom: 1.7;
+  }
 
+  .home {
+    height: initial;
+    row-gap: 4rem;
+  }
+}
 
 /* For 4K resolutions (3840 x 2160, 4096 x 2160) */
+
+@media screen and (min-width: 3840px) {
+  body {
+    zoom: 3.1;
+  }
+}
