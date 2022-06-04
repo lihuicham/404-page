@@ -179,7 +179,7 @@ img {
 
 .home_img img {
   width: 230px;
-  animation: floaty 1.8s infinite alternate;
+  animation: floaty 0.8s infinite alternate;
 }
 
 .home_img {
@@ -193,7 +193,7 @@ img {
   margin: 0 auto;
   border-radius: 50%;
   filter: blur(7px);
-  animation: shadow 1.8s infinite alternate;
+  animation: shadow 0.8s infinite alternate;
 }
 
 .home_footer {
@@ -204,7 +204,25 @@ img {
   align-self: flex-end;
 }
 /* Animate ghost */
+@keyframes floaty {
+  0% {
+    transform: translateY(0);
+  }
 
+  100% {
+    transform: translateY(15px);
+  }
+}
+
+@keyframes shadow {
+  0% {
+    transform: scale(1.2, 1.2);
+  }
+
+  100% {
+    transform: scale(.85, .85);
+  }
+}
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
