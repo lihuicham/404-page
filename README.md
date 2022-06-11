@@ -12,7 +12,7 @@ Created using: HTML, CSS, JavaScript, ScrollReveal Js, 3D Illustration.
 <br>
 
 #### Mobile Version 
-![mobile_view](https://github.com/lihuicham/404-page/blob/main/assets/images/project_preview/mobile_view.JPG)
+![mobile_view](https://github.com/lihuicham/404-page/blob/main/assets/images/project_preview/mobile_view.jpg)
 
 <br>
 
